@@ -1,0 +1,12 @@
+const cars=["suzuki","audi","rolls roys","tata","toyoto","rolls roys"];
+console.log(cars);
+var x=cars.indexOf("audi");
+console.log("Index value of audi:"+x);
+var y=cars.indexOf("rolls roys",3);
+console.log("rolls roys index value 3 and after 3 position:"+y);
+var z=cars.indexOf("mahindra");
+console.log("index value of mahindra:"+z);
+const friend="hello hi friend how are you";
+console.log(friend);
+var w=friend.indexOf("friend");
+console.log("index value of 'friend' word:"+w);
